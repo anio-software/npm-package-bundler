@@ -1,0 +1,20 @@
+{
+  "name": "@anio-software/npm-package-bundler",
+  "version": "1.0.0",
+  "description": "Small wrapper around rollup to bundle packages.",
+  "main": "./src/index.mjs",
+  "author": "Anio Software <info@anio.software>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anio-software/npm-package-bundler.git"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.6",
+    "rollup-include-static-resource-plugin": "^2.0.0"
+  },
+  "bin": {
+    "npm-package-bundler": "./src/cli.mjs"
+  }
+}
